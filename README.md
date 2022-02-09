@@ -24,6 +24,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
+  - [Acknowledgments](#acknowledgments)
   - [Author](#author)
 
 ## Overview
@@ -45,6 +46,7 @@ Users should be able to:
 ![landscape: ](./dist/images/screenshots/landScape.png)
 
 ### Links
+- Page preview : https://intro-sign-up-form-component.netlify.app/
 
 ## My process
 
@@ -58,18 +60,19 @@ Users should be able to:
 
 ### What I learned
 
-I learned to use regular expressions with javascript
+- I learned to use regular expressions with javascript
 
 ### Continued development
 
-Practice more and more on javascript... a little more.
+- Practice more on javascript DOM... a little more.
 
 ### Useful resources
+- [@regex](https://regexr.com) :tool to test your regular expression 
 
-- Firefox / tools/responsive design view
-- Google chome/tools/development tools
-- regex: https://regexr.com
-
+## Acknowledgments 
+- password validation: [@stackoverflow](https://stackoverflow.com/questions/2370015/regular-expression-for-password-validation#2370045)
 ## Author
 
-[@mounir](https://github.com/mounir-m4)
+- Github [@mounir-m4](https://github.com/mounir-m4)
+- Twitter - [@mounirmotawakil](https://twitter.com/mounirmotawakil)
+- Frontend Mentor - [@mounir-m4](https://www.frontendmentor.io/profile/mounir-m4)
