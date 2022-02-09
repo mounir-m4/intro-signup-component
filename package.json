@@ -1,0 +1,15 @@
+{
+	"name": "intro-signup-component",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"sass": "sass --watch scss/main.scss:dist/css/main.css"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"sass": "^1.49.7"
+	}
+}

@@ -1,0 +1,100 @@
+@use 'config' as *;
+@use 'utilities' as *;
+@use 'media' as *;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+//main content
+body {
+	position: relative;
+}
+.main-content {
+	height: 100%;
+	background: url('../images/bg-intro-desktop.png') center center/cover;
+	z-index: 1;
+	&::before {
+		content: '';
+		background: $color-red;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+	.decsription-container {
+		flex: 1;
+	}
+	.form-container {
+		.card {
+			background: $color-blue;
+			padding: 0.9rem;
+			border-radius: 5px;
+			box-shadow: 0 0.4rem rgb(0 0 0 / 22%);
+			div {
+				color: $white;
+				span:first-child {
+					opacity: 1;
+					font-weight: bold;
+					letter-spacing: 0.5px;
+				}
+				span:last-child {
+					opacity: 0.8;
+				}
+			}
+		}
+		flex: 1;
+		.form {
+			&-action {
+				background: $white;
+				border-radius: 5px;
+			}
+			&-group {
+				position: relative;
+				.form-control {
+					padding: 1rem;
+					border: 1.5px solid $color-grayish-blue;
+					border-radius: 5px;
+					outline: 0;
+					transition: all 0.2s;
+					width: 100%;
+					&:focus {
+						outline: 0;
+						border: 1.5px solid $color-dark-blue;
+					}
+					&::placeholder {
+						font-size: 0.8rem;
+						font-weight: 700;
+						opacity: 0.9;
+					}
+				}
+			}
+		}
+		.terms {
+			font-size: 0.8rem;
+			margin: 1rem 0;
+			text-align: center;
+			color: $color-grayish-blue;
+			a {
+				color: $color-red;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all 0.2s;
+				&:hover {
+					color: hsl(0, 56%, 56%);
+				}
+			}
+		}
+	}
+}
+footer {
+	p {
+		color: $white;
+		a {
+			text-decoration: none;
+		}
+	}
+}

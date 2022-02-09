@@ -1,0 +1,42 @@
+@media (max-width: 1140px) {
+	.container {
+		padding: 0 0.5rem;
+	}
+	.d-flex {
+		flex-direction: column;
+	}
+	.decsription-container {
+		h1 {
+			padding-right: 0;
+			padding: 0 0.5rem;
+			text-align: center;
+			font-size: 2rem;
+			line-height: 1.3;
+		}
+		p {
+			padding: 0 1rem;
+			text-align: center;
+			font-size: 0.9rem;
+		}
+	}
+	.form-container {
+		padding: 0 4rem;
+	}
+}
+
+@media (max-width: 400px) {
+	.p-2 {
+		padding: 0.5rem;
+	}
+	.btn {
+		padding: 1rem 1.5rem;
+	}
+	.form-container {
+		padding: 0;
+	}
+	.decsription-container {
+		p {
+			padding: 0 0.9rem;
+		}
+	}
+}
